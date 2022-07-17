@@ -1,0 +1,570 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./icon.svg">
+    
+    <title>No Man's Sky</title>
+  </head>
+  <body style="background-color: black">
+    <header>
+      <nav class="navbar navbar-expand-xxl navbar-dark fixed-top py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand col-5 col-lg-2 col-md-3 col-sm-4" href="#"
+            ><img
+              src="https://nmswp.azureedge.net/app/themes/nomanssky/dist/images/logo-nms.png"
+              alt="No Man's Sky Logo"
+              class="col-12 col-lg-12 col-md-10 col-sm-10"
+          /></a>
+          <button
+            class="navbar-toggler toggler-custom ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="custom-menu text-warp">MENU</div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link1"
+                  aria-current="page"
+                  href="#"
+                  >LATEST PATCH NOTES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BUY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RELEASE LOGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PRESS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MERCHANDISE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section style="border-bottom: solid 0.1rem #ff8400">
+      <div class="testtt position-relative mt-lg-4 mt-sm-4 mt-md-4 mt-3 p-0">
+        <video
+          class="ratio ratio-16x9"
+          autoplay
+          muted
+          loop
+          src="./video.mp4"
+        ></video>
+        <picture class="position-relative">
+          <source srcset="./Images/home1024.jpg" media="(min-width: 769px)" />
+          <source media="(min-width: 361px )" srcset="./Images/home768.jpg" />
+          <source media="(min-width: 1px)" srcset="./Images/home360.jpg" />
+          <img
+            width="100%"
+            src="./Images/home1024.jpg"
+            style="border-bottom: solid 0.1rem #ff8400"
+            alt="MDN"
+          />
+          <div class="grad-test position-absolute" style="z-index: 3"></div>
+        </picture>
+        <div
+          class="position-absolute top-0 d-flex flex-column align-items-center"
+          style="margin-left: 10%; height: 100%; width: 80vw; z-index: 50"
+        >
+          <div class="banner-title-image" style="margin-top: 8vw">
+            <img
+              class="img-fluid"
+              src="./Images/banner-title.png"
+              alt="Title"
+            />
+          </div>
+          <div class="buy-now-section" style="width: 100%">
+            <h2 class="text-center">BUY NOW ON</h2>
+            <div
+              class="platforms-container d-flex align-items-center justify-content-center"
+            >
+              <div
+                class="d-flex row container-fluid p-0 justify-content-center"
+              >
+                <div
+                  class="col-lg-1 d-flex justify-content-center mb-2 p-2 mb-lg-0 col-3 col-sm-3 m-2 container-resp"
+                  href="#"
+                  style="background-color: #ff8400"
+                >
+                  <div class="containerr align-items-center d-flex justify-content-center">
+                    <img style="width: 100%; height: 80%" src="./buynow/logo-ps4.png" alt="" />
+                  </div>
+                </div>
+                <div
+                  class="col-lg-1 d-flex justify-content-center mb-2 p-2 mb-lg-0 col-3 col-sm-3 m-2 container-resp"
+                  href="#"
+                  style="background-color: #ff8400"
+                >
+                  <div class="containerr align-items-center d-flex justify-content-center">
+                    <img style="width: 100%; height: 80%" src="./buynow/logo-ps5.png" alt="" />
+                  </div>
+                </div>
+                <div
+                  class="col-lg-1 d-flex justify-content-center mb-2 p-2 mb-lg-0 col-3 col-sm-3 m-2 container-resp"
+                  href="#"
+                  style="background-color: #ff8400"
+                >
+                  <div class="containerr align-items-center d-flex justify-content-center">
+                    <img style="width: 100%; height: 100%" src="./buynow/logo-steam.png" alt="" />
+                  </div>
+                </div>
+                <div
+                  class="col-lg-1 d-flex justify-content-center p-2 mb-2 mb-lg-0 col-3 col-sm-3 m-2 container-resp"
+                  href="#"
+                  style="background-color: #ff8400"
+                >
+                  <div class="containerr align-items-center d-flex justify-content-center">
+                    <img
+                    style="width: 100%; height: 90%"
+                      src="./buynow/logo-xbox-one.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-1 d-flex justify-content-center p-1 mb-2 mb-lg-0 col-3 col-sm-3 m-2 container-resp"
+                  href="#"
+                  style="background-color: #ff8400"
+                >
+                  <div class="containerr row align-items-center d-flex justify-content-center">
+                    <img
+                      
+                      src="./buynow/logo-xbox-series-x-s.png"
+                      style="width: 100%; height: 70%"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-lg-1 d-flex justify-content-center mb-2 mb-lg-0 col-3 col-sm-3 m-2 container-resp"
+                  href="#"
+                  style="background-color: #ff8400"
+                >
+                  <div class="containerr row align-items-center d-flex justify-content-center">
+                    <img
+                      
+                      src="./buynow/logo-xbox-game-pass-140w.png"
+                      style="width: 100%; height: 60%"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center more-purchase" style="color: white">
+              More purchase options »
+            </div>
+            <h2 class="text-center" style="margin-top: 2%">
+              COMING OCTOBER 7TH 2022 TO
+            </h2>
+            <div
+              class="d-flex justify-content-center container-fluid p-0 me-n5"
+            >
+              <a
+                class="col-lg-2 d-flex justify-content-center col-6 col-sm-2 item-1"
+                href="#"
+                ><div
+                  class="d-flex justify-content-center"
+                  style="
+                    height: 2.5rem;
+                    width: 6rem;
+                    align-items: center;
+                    background-color: #e60012;
+                  "
+                >
+                  <img
+                    class="img-fluid col-12 img-1"
+                    src="./buynow/logo-nintendo-switch-83w.png"
+                    alt=""
+                    style="
+                      width: 5rem;
+                      min-width: 3rem;
+                      height: 1.5rem;
+                      background-color: #e60012;
+                    "
+                  /></div
+              ></a>
+            </div>
+            <div class="text-center more-purchase" style="color: white">
+              More info »
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="features">
+      <div
+        class="bg-img container-fluid row m-0"
+        style="border-bottom: solid 0.15rem #ff8400"
+      >
+        <div class="col-xxl-2 col-xl-4 col-lg-6 col-md-6 mt-5">
+          <h2>INFINITE</h2>
+          <p>Entire galaxies lie waiting to be discovered.</p>
+        </div>
+        <div class="col-xxl-2 col-xl-4 col-lg-6 col-md-6 mt-5">
+          <h2>STORY</h2>
+          <p>
+            Experience infinite freedom, or uncover the secrets of the universe
+            with more than 30 hours of story.
+          </p>
+        </div>
+        <div class="col-xxl-2 col-xl-4 col-lg-6 col-md-6 mt-5">
+          <h2>MULTIPLAYER</h2>
+          <p>
+            Dogfight, race exocraft, build colonies, explore, trade, fight and
+            survive together.
+          </p>
+        </div>
+        <div class="col-xxl-2 col-xl-4 col-lg-6 col-md-6 mt-5">
+          <h2>VR</h2>
+          <p>
+            The entire game playable in virtual reality for a more immersive
+            experience.
+          </p>
+        </div>
+        <div class="col-xxl-2 col-xl-4 col-lg-6 col-md-6 mt-5">
+          <h2>BEYOND</h2>
+          <p>
+            Our 2.0 update adds even more depth and features and brings all the
+            strands of No Man’s Sky into a cohesive whole.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="right-text-section">
+        <div class="game-features" style="background-color: black">
+          <div class="text-section text-section-right" style="z-index: 100">
+            <h2 style="color: white">EXPLORE</h2>
+            <h3 style="color: #ff8400">In an infinite universe</h3>
+            <p style="color: white">
+              Be the first to land on beautiful, unknown planets teeming with
+              life. Survive hazardous environments, where alien civilizations
+              seek their fortune and outlaws take it by force.
+            </p>
+          </div>
+          <picture class="bg-img-hide">
+            <source
+              media="(min-width: 1921px)"
+              srcset="./firstitem/background/1921.jpg"
+            />
+            <source
+              media="(min-width: 1651px)"
+              srcset="./firstitem/background/1651.jpg"
+            />
+            <source
+              media="(min-width: 1391px)"
+              srcset="./firstitem/background/1391.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./firstitem/background/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./firstitem/background/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+          <picture class="bottom-img">
+            <source
+              media="(min-width: 769px)"
+              srcset="./firstitem/below-content/769.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./firstitem/background/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./firstitem/background/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+
+          <div
+            class="img-grad-main img-grad-right"
+            style="border-bottom: solid 0.1rem #ff8400"
+          ></div>
+        </div>
+      </div>
+
+      <div class="left-text-section">
+        <div class="game-features" style="background-color: black">
+          <div class="text-section text-section-left" style="z-index: 100">
+            <h2 style="color: white">BUILD</h2>
+            <h3 style="color: #ff8400">
+              Base building, anywhere, on any planet
+            </h3>
+            <p style="color: white">
+              Team up to build anything from small outposts to complex
+              multi-planet colonies. Farm for resources, hire helpers, or build
+              a mobile base in your freighter.
+            </p>
+          </div>
+          <picture class="bg-img-hide">
+            <source
+              media="(min-width: 1921px)"
+              srcset="./seconditem/background/1921.jpg"
+            />
+            <source
+              media="(min-width: 1651px)"
+              srcset="./seconditem/background/1651.jpg"
+            />
+            <source
+              media="(min-width: 1391px)"
+              srcset="./seconditem/background/1391.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./seconditem/background/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./seconditem/background/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+          <picture class="bottom-img">
+            <source
+              media="(min-width: 769px)"
+              srcset="./seconditem/below-content/769.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./seconditem/below-content/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./seconditem/below-content/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+
+          <div
+            class="img-grad-main img-grad-left"
+            style="border-bottom: solid 0.1rem #ff8400"
+          ></div>
+        </div>
+      </div>
+
+      <div class="right-text-section">
+        <div class="game-features" style="background-color: black">
+          <div class="text-section text-section-right" style="z-index: 100">
+            <h2 style="color: white">MULTIPLAYER</h2>
+            <h3 style="color: #ff8400">Explore, Build and Survive Together</h3>
+            <p style="color: white">
+              Experience up to 32 player multiplayer when you summon the social
+              hub, the Space Anomaly, from anywhere in the universe. Form a
+              group, go on inter-galactic missions together or visit each
+              other’s bases.
+            </p>
+          </div>
+          <picture class="bg-img-hide">
+            <source
+              media="(min-width: 1921px)"
+              srcset="./thirditem/background/1921.jpg"
+            />
+            <source
+              media="(min-width: 1651px)"
+              srcset="./thirditem/background/1651.jpg"
+            />
+            <source
+              media="(min-width: 1391px)"
+              srcset="./thirditem/background/1391.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./thirditem/background/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./thirditem/background/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+          <picture class="bottom-img">
+            <source
+              media="(min-width: 769px)"
+              srcset="./thirditem/below-content/769.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./thirditem/background/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./thirditem/background/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+
+          <div
+            class="img-grad-main img-grad-right"
+            style="border-bottom: solid 0.1rem #ff8400"
+          ></div>
+        </div>
+      </div>
+
+      <div class="left-text-section">
+        <div class="game-features" style="background-color: black">
+          <div class="text-section text-section-left" style="z-index: 100">
+            <h2 style="color: white">COMMUNITY</h2>
+            <h3 style="color: #ff8400">Join the intergalactic neighbourhood</h3>
+            <p style="color: white">
+              Join one of the thriving community Galactic Hubs, where you and
+              like-minded travellers can create a new frontier.
+            </p>
+            <a
+              class="nav-link active nav-link1 m-0"
+              style="width: 50%"
+              aria-current="page"
+              href="#"
+              >CHECK OUT THE GALACTIC ATLAS</a
+            >
+          </div>
+          <picture class="bg-img-hide">
+            <source
+              media="(min-width: 1921px)"
+              srcset="./fourthitem/background/1921.jpg"
+            />
+            <source
+              media="(min-width: 1651px)"
+              srcset="./fourthitem/background/1651.jpg"
+            />
+            <source
+              media="(min-width: 1391px)"
+              srcset="./fourthitem/background/1391.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./fourthitem/background/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./fourthitem/background/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+          <picture class="bottom-img">
+            <source
+              media="(min-width: 769px)"
+              srcset="./fourthitem/below-content/769.jpg"
+            />
+            <source
+              media="(min-width: 1px)"
+              srcset="./fourthitem/below-content/1-default.jpg"
+            />
+            <img
+              width="100%"
+              src="./fourthitem/below-content/1-default.jpg"
+              style="border-bottom: solid 0.1rem #ff8400"
+              alt="MDN"
+            />
+          </picture>
+
+          <div
+            class="img-grad-main img-grad-left"
+            style="border-bottom: solid 0.1rem #ff8400"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="join-section pb-5">
+      <div class="text-below d-flex flex-column align-items-center" style="z-index: 100">
+        <h2 class="mt-5" style="color: white;">COMMUNITY</h2>
+        <h3 class="mt-2 text-center" style="color: #ff8400">Join the intergalactic neighbourhood</h3>
+        <p class="text-center mt-2 " style="color: white">
+          Join one of the thriving community Galactic Hubs, where you and
+          like-minded travellers can create a new frontier.
+        </p>
+      </div>  
+
+      <div class="scrollmenu d-flex flex-row align-items-end">
+        <a href="#"><img class="scr-img" src="./scroll/1.png" alt=""></a>
+        <a href="#"><img class="scr-img" src="./scroll/2.png" alt=""></a>
+        <a href="#"><img class="scr-img" src="./scroll/3.jpg" alt=""></a>
+        <a href="#"><img class="scr-img" src="./scroll/4.jpg" alt=""></a>
+        
+      </div>
+    </section>
+
+    <footer class="d-flex justify-content-center  align-items-center container-fluid">
+      <ul class=" d-flex justify-content-center align-items-center mt-2 p-0">
+        
+        <li class="nav-item ms">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">NEWS</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-center" href="#">TWITCH DROPS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center" href="#">HELP CENTER</a>
+        </li>
+
+        <li class=" nav-item d-flex justify-content-center">
+            <a href="#"><svg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.026 4.026 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.021 4.021 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.024 4.024 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973c-.3.93-.93 1.72-1.771 2.22a8.073 8.073 0 0 0 2.319-.624 8.646 8.646 0 0 1-2.019 2.083Z' /></svg></a>
+                
+            <a href="#"><svg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127c-.82-.088-1.643-.13-2.467-.127-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312Z'/></svg></a>
+
+            <a href="#"><svg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" class="st0" d="M1,11.5C1,5.2,6.2,0,12.5,0S24,5.2,24,11.5S18.9,23,12.5,23S1,17.9,1,11.5z M18.5,13.5c1.1,0,2-0.9,2-2   s-0.9-2-2-2s-2,0.9-2,2S17.4,13.5,18.5,13.5z M12.5,13.5c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S11.4,13.5,12.5,13.5z M6.5,13.5   c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S5.4,13.5,6.5,13.5z"/></svg></a>
+
+          
+        </li>
+      </ul>
+     
+    </footer>
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
